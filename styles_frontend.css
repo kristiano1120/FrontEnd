@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 600px;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section{
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    top: 50%;
+    transform: translatey(-50%);
+    border: 2px solid rgb(46, 49, 48);;
+    border-radius: 10px;
+    
+}
+
+div.container{
+    position: relative;
+    height: 500px;
+    width: 50%;
+    margin: 0;
+    background-color: rgb(46, 49, 48);
+    text-align: center;
+    
+}
+div.title{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    margin-top:100px;
+}
+
+
+
+div.container_demo{
+    position: relative;
+    background-color:white;
+    width: 50%;
+    height: 500px;
+}
+
+div.wraper{
+    position: relative;
+}
+
+div.animate form{
+    position: relative;
+    text-align: left;
+    left: 20px;
+    top: 100px;
+}
+
+hr{
+    width: 70%;    
+    margin: 0px;
+    color:rgb(46, 49, 48);
+}
+
+h3{ 
+    color:rgb(46, 49, 48);   
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+input#username{
+    height: 20px;
+    width: 70%;
+    border-radius: 5px;
+    background-color:rgb(189, 185, 185);
+    /* font-weight: bold; */
+    font-size: medium;
+}
+
+input#password{
+    height: 20px;
+    width: 70%;
+    border-radius: 5px;
+    background-color:rgb(189, 185, 185);
+    /* font-weight: bold; */
+    font-size: medium;
+}
+
+#loginb{
+    color:rgb(46, 49, 48);
+    height: 35px;
+    width: 35%;
+    border-radius: 5px;
+    background-color:rgb(189, 185, 185);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+#registro{
+    color:rgb(46, 49, 48);
+    height: 35px;
+    width: 35%;
+    border-radius: 5px;
+    background-color:rgb(189, 185, 185);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
