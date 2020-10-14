@@ -1,4 +1,3 @@
-        
 <header class="navbar navbar-bright navbar" role="banner">
   <div class="container">
     <div class="navbar-header">
@@ -11,24 +10,26 @@
     </div>
     <div class="col-md-12">
         <div class="col-md-offset-4 col-md-4" style="padding: 10px;">
-            <form class="form-inline" method="post" action="search.php">
-             <input type="text" name="search" class="form-control" style="width: 100%"  id="span5" placeholder="Buscar">
-            </form>
+          <form class="form-inline" method="post" action="search.php">
+            <input type="text" name="search" class="form-control" style="width: 100%"  id="span5" placeholder="Buscar">
+          </form>
         </div>
         <div class="col-md-offset-2 col-md-2" style="padding: 10px 5px 5px 5px">
-            <li class="pull-right">
-              <a href="logout.php"><i class="icon-signout"></i> Cerrar Sesión</a>
-            </li>
+            <div class="pull-right">
+              <a href="logout.php"><i class="fas fa-sign-out-alt"></i></a>
+            </div>
         </div>
     </div>
-    <div class="col-md-12">
+    <div class="col-md-12" style="margin-top: 20px;">
       <div class="col-md-offset-4 col-md-4" style="text-align: center;"> 
-        <img class="image-circle" src="<?php echo $image; ?>" height="140" width="140" style="border: 3px solid #fff; border-radius: 50%; ">
-        <a class="btn btn-success" href="change_pic.php" style="margin:10px;">Cambiar Foto de Perfil</a>
+        
+        <a href="change_pic.php" >
+          <img class="image-circle" src="<?php echo $image; ?>" height="140" width="140" style="border: 3px solid #fff; border-radius: 50%; ">
+        </a>
       </div>
     </div>
     <div class="col-md-12">
-      <nav class="collapse navbar-collapse col-md-offset-3 col-md-10" style="padding:0px 40px; " role="navigation">
+      <nav class="collapse navbar-collapse col-md-offset-4 col-md-10" style="padding:0px 40px; margin-top: 20px;" role="navigation">
       <ul class="nav navbar-nav">
         <li><a href="home.php" class="navbar-brand"><i class="icon-home"></i> Inicio</a>
         <li><a href="profile.php"><i class="icon-user"></i> Perfil</a></li>

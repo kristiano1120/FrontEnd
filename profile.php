@@ -1,5 +1,5 @@
-<?php include('header.php'); ?>    
-<?php include('session.php'); ?>    
+<?php include('header.php'); ?>
+<?php include('session.php'); ?>
     <body>
 	<?php include('navbar.php'); ?>
 			<div id="masthead">  
@@ -14,9 +14,6 @@
 					</div> 
 				</div><!-- /cont -->
 			</div>
-
-                                                
-                                                                                
 <?php include('footer.php'); ?>
         
     </body>
