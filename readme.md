@@ -2,7 +2,7 @@
 
 Módulo de Teorico Práctico de Front-End
 
-<h3>Integramntes del equipo</h3> 
+<h3>Integrantes del equipo</h3> 
 <ul>
 <li>OSORIO LONDOÑO CRISTIAN CAMILO - COD: 1921982988</li>
 <li>MORALES MURILLO JUAN MANUEL - COD: 1921982688</li>
