@@ -1,1 +1,0 @@
-Politécncio Grancolombiano
